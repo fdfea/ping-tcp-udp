@@ -21,7 +21,7 @@ The program takes several command line arguments:
 * `-i` \[optional client] -- interval to send packets in milliseconds, default is 1000
 * `-t` \[optional client] -- timeout to wait for response in milliseconds, deafult is 1000
 
-The arguments are provided by inputting the parameter *directly* after the argument flag, if the flag accepts a parameter. 
+The arguments are provided by inputting the parameter *directly* after the argument flag, if the flag accepts a parameter. The order of the arguments do not matter. 
 
 Example commands:  
 `./pingtcpudp -s`  
