@@ -24,10 +24,10 @@ The program takes several command line arguments:
 The arguments are provided by inputting the parameter *directly* after the argument flag, if the flag accepts a parameter. 
 
 Example commands:  
-./pingtcpudp -s  
-./pingtcpudp -s -p12121
-./pingtcpudp -c -h127.0.0.1  
-./pingtcpudp -c -u -h10.0.0.2 -p5044 -l512 -k4 -i2000
+`./pingtcpudp -s`  
+`./pingtcpudp -s -p12121`  
+`./pingtcpudp -c -h127.0.0.1`  
+`./pingtcpudp -c -u -h10.0.0.2 -p5044 -l512 -k4 -i2000`
 
 The program will display the latency for each packet sent, and then the total number of packets 
 sent/received and the average/max latency once all the packets have been sent. 
